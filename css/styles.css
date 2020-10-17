@@ -151,7 +151,7 @@ header p{
   text-align: justify;
 }
 .hobby-list li{
-  padding: 5px;
+  padding: 10px;
 }
 .hobby-list li:nth-child(1){
   list-style-image: url("icons8-book-26.png");
