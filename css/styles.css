@@ -1,6 +1,7 @@
 body{ 
   margin: auto;
-  width: 100%;
+  width: auto;
+  min-width: 600px;
 }
 
 .top-container{
