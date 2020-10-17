@@ -1,0 +1,269 @@
+body{ 
+ margin: auto; 
+}
+
+.top-container{
+  background-color: rgb(207, 248, 241);
+  position: relative;
+  font-family: Mali;
+  font-size: 28px;
+  height: 480px;
+  background-image: url("mountain3.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+
+header p{
+  position: relative;
+  margin: 0;
+  padding-top: 60px;
+  color: rgb(10, 63, 10);
+
+}
+
+.cloud1{
+  width: 150px;
+  position: absolute;
+  top: 200px;
+  left: 90px;
+
+}
+
+.cloud2{
+  width: 150px;
+  position: absolute;
+  top: 80px;
+  right: 130px;
+
+}
+.introduction{
+  background-color: rgb(177, 240, 229);
+  height: 350px;
+  text-align: center;
+  font-family: Mali;
+  font-size: 25px;
+  color: rgb(3, 27, 3);
+}
+.profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 290px;
+  height: 200px;
+  border-radius: 100%;
+  padding-top: 10px;
+  
+}
+#idemia{
+  color: rgb(113, 9, 209);
+  font-weight: bolder;
+}
+.education{
+  height: 350px;
+  background-color: rgb(137, 226, 210);
+}
+.study{
+  width: 20%;
+  height: 220px;
+  padding-top: 15px;
+  float: left;
+
+}
+.education-table, th, td{
+  text-align: center;
+  padding: 10px;
+}
+.education-table{
+  width: auto;
+  height: 100px;
+  font-family: Mali;
+  max-width: 100%;
+  padding-left: 5%;
+  border-spacing: 5px;
+}
+
+.education-table th, .education-table td{
+  font-size: 20px;
+  color: rgb(3, 27, 3);
+}
+
+.education-table th{
+  text-decoration: underline;
+}
+
+.education-table caption{
+  padding: 15px 0;
+  font-size: 25px;
+  color: rgb(3, 27, 3);
+}
+.skills{
+  height: 350px;
+  background-color: rgb(103, 214, 194);
+  font-family: Mali;
+  font-size: 25px;
+  color: rgb(3, 27, 3);
+
+}
+.skills p{
+  text-align: center;
+}
+.coding{
+  width: 290px;
+  height: 250px;
+  padding-top: 15px;
+  float: right;
+}
+
+.skills li{
+  padding: 8px;
+}
+.skills ul{
+  margin: 0 auto 0 auto;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.hobbies{
+  height: 350px;
+  background-color: rgb(78, 202, 179);
+  font-family: Mali;
+  font-size: 25px;
+  color: rgb(3, 27, 3);
+  text-align: center;
+}
+.hobby{
+  width: 290px;
+  height: 250px;
+  padding-top: 15px;
+  float: left;
+}
+.hobbies p{
+  display: inline-block;
+ 
+}
+.hobby-list{
+  list-style-position: inside;
+  margin: 0 80px 0 auto;
+  width: 40%;
+  padding: 15px 0 0 0;
+  text-align: justify;
+}
+.hobby-list li{
+  padding: 5px;
+}
+.hobby-list li:nth-child(1){
+  list-style-image: url("icons8-book-26.png");
+}
+.hobby-list li:nth-child(2){
+  list-style-image: url("icons8-music-24.png");
+}
+.hobby-list li:nth-child(3){
+  list-style-image: url("icons8-movie-projector-26.png");
+}
+.hobby-list li:nth-child(4){
+  list-style-image: url("icons8-pot-30.png");
+}
+
+.bottom-container{
+  height: 350px;
+  background-color: rgb(42, 163, 141);
+  font-family: Mali;
+  font-size: 25px;
+  color: rgb(3, 27, 3);
+}
+.bottom-container h2{
+  text-align: center;
+  padding-top: 15px;
+}
+.bottom-container p{
+  text-align: center;
+  padding: 15px 0 0 0;
+  margin: 0;
+}
+.arrow{
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  animation-name: arrow-down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes arrow-down{
+  0%{top: 0px;}
+  25%{top: 30px;}
+  50%{top: 30px;}
+  75%{top: 30px;}
+  100%{top: 0px;}
+}
+.message{
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 35px;
+  transition: width 0.5s, height 0.5s;
+}
+.message:hover{
+  width: 150px;
+  height: 150px;
+}
+
+.end{
+  height: 350px;
+  background-color: rgb(37, 37, 36);
+  font-family: Mali;
+  font-size: 25px;
+  color: beige;
+}
+.end > p{
+  padding-top: 15px;
+  text-align: center;
+}
+.social-media{
+  border-right: rgb(209, 199, 199) solid 1px;
+  width: 49%;
+  height: 280px;
+  margin-top: 15px;
+  float: left;
+}
+
+.company{
+  border-left: rgb(209, 199, 199) solid 1px;
+  width: 50.5%;
+  height: 280px;
+  margin-top: 15px;
+  float: left;
+}
+.media{
+  margin: 0 auto 2px auto;
+}
+.media td{
+  padding: 12px;
+  width: 20px;
+  vertical-align: middle;
+}
+  
+.logo{
+  width: 40px;
+  height: 40px;
+  
+}
+.address{
+  text-align: center;
+  margin-top: 50px;
+  font-style: normal;
+}
+.media a{
+  text-decoration: none;
+  color: beige;
+  transition: text-shadow 0.2s ease-in-out;
+}
+.media a:hover{
+  text-shadow: -1px -10px 25px white;
+}
