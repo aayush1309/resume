@@ -233,7 +233,7 @@ header p{
 }
 
 .company{
-  border-right: rgb(209, 199, 199) solid 1px;
+  border-left: rgb(209, 199, 199) solid 1px;
   width: 50.5%;
   height: 280px;
   margin-top: 15px;
